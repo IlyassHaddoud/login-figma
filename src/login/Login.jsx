@@ -37,7 +37,7 @@ const Login = () => {
       </div>
       <div className="carousel">
         <img className="logo" src={logo} />
-        <Carousel showThumbs={false}>
+        <Carousel showStatus={false} showThumbs={false}>
           <div>
             <img src={image1} style={{ height: "30rem", width: "15rem" }} />
             <h2 style={{ color: "white" }}>Emabrk on Your Learning uuest!</h2>
