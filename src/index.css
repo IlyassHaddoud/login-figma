@@ -19,7 +19,6 @@
 .login {
   display: flex;
   max-height: 100%;
-  overflow: hidden;
 }
 
 .controls {
@@ -120,4 +119,28 @@
   z-index: 100;
   width: 10rem;
   padding: rem;
+}
+
+@media screen and (max-width: 786px) {
+  .login {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .controls,
+  .carousel {
+    min-width: 80%;
+  }
+}
+
+@media screen and (max-width: 617px) {
+  .login {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .controls,
+  .carousel {
+    min-width: 100%;
+  }
 }
